@@ -5,7 +5,7 @@ export default async function getPhotos(value, page = 1) {
   const params = {
     client_id: "FAI36XVEz-8UQIKzygO5eEXvTTH7feuP-GzMaCSBIjw",
     query: value,
-    per_page: 3,
+    per_page: 20,
     page,
   };
 
