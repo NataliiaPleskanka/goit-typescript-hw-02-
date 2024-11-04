@@ -11,9 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
-
 
 #root {
   margin: 0 auto;
@@ -34,9 +32,9 @@ body {
   display: flex;
   /* place-items: center; */
   min-height: 100vh;
-color: black;
-font-size: 18px;
-background-color: #f1f0f0;
+  color: black;
+  font-size: 18px;
+  background-color: #f1f0f0;
 }
 
 h1 {
@@ -44,7 +42,8 @@ h1 {
   line-height: 1.1;
 }
 
-ul, li {
+ul,
+li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -62,7 +61,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: transparent;
   cursor: pointer;
   transition: border-color 0.25s;
 }
